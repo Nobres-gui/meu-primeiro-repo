@@ -5,9 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css aula</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
+    <link rel="stylesheet" href="styles.css+"></head>
+    <style>body{margin:0;    
+    }
+    .card {
+        width: 500px;
+        height: fit-content;
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color: rgb(158, 158, 158);
+        margin: 10px;
+    }
+    .imgcard {
+        width: 100px;
+        border-radius: 50%
+    }
+    .imgcard img {
+        width: 85%;
+        height: 85%;
+    }
+    .titulo_style {
+        font-size: 35;
+    }
+    .titulo_style .cor_nome {
+        color: rgb(92, 233, 102);
+    }
+    .nome_style {
+       font-size: 35;}
+    
+     .card_mensagem span {
+        font-style: italic;
+        font-weight: bold;
+        color: #48deec
+    }</style>
 <body>
 
     <div class="card">
@@ -25,8 +55,8 @@
             <img src="https://cdn-icons-png.flaticon.com/512/706/706830.png"/>
         </div>
         <div>
-            <h1 class="titulo_style"><span class="cor_nome">Meu nome é: <span>Fábio</span> </span></span></h1>
-            <p class="card_mensagem">Mensagem:<span> Ser ou não ser, eis a questão</span></p>
+            <h1 class="titulo_style"><span class="nome_style">Meu nome é: <span class="cor_nome">Fábio</span></span></h1>
+            <p class="card_mensagem">Mensagem: <span> Ser ou não ser, eis a questão</span></p>
         </div>
     </div>
 </body>
